@@ -9,6 +9,8 @@ public class Ex5_1 {
 		System.out.println("동일타입변수= "+a0+","+a1+","+a2+","+a3+","+a4);
 		int [] a = new int [5];
 		a[0] = 8; a[1] = 5; a[2] = 2; a[3] = 3; a[4] = 6;
+		// int [] a = {8,5,2,3,6};
+		// int [] a = new [] {8,5,2,3,6};
 		System.out.println("동일타입배열= "+a[0]+","+a[1]+","+a[2]+","+a[3]+","+a[4]);
 	}
 
