@@ -1,0 +1,15 @@
+package org.javaro.lecture;
+
+public class Ex6_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("임희진"+"-"+"20191010"+"-"+"함수");
+		double x, y;
+		
+		x = 10.0; y = 20.0;
+		double area = x*y;
+		System.out.println("면적 = "+area);
+	}
+
+}
