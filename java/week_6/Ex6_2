@@ -4,7 +4,7 @@ public class Ex6_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("임희진"+"-"+"20191010"+"-"+"배열");
+		System.out.println("임희진"+"-"+"20191010"+"-"+"함수");
 		float num = 10.0f;
 		System.out.println("num = "+num);
 		rand(num);
