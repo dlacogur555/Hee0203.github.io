@@ -1,3 +1,23 @@
+<!docypte html><!-- inp.html -->
+<html><head><meta chrset="utf-8"/><mate name="viewport" content="width=device-width, inital-scale=1"/>
+   
+   <style>
+      div#division {width:90%;height:400px;float:left; font-size:18px; overflow:scroll; background-color:white; border:solid 1px gray;}
+      div#division1 {margin: 410px 0px 0px 0px;}
+   </style>
+   
+   <title> 함수 </title>
+   <body>
+      
+      <header>
+         <h4> 임희진 </h4>
+      </header><br/>
+      <section>
+         <section>
+            <br/><p>코드</p>
+            <br/><div id="division">
+            <xmp>
+
 package org.javaro.lecture;
 
 public class Test6_2 {
@@ -15,3 +35,17 @@ public class Test6_2 {
 		return Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 	}
 }
+
+            </xmp>
+            </div>
+         </section>
+         
+         <section><div id="division1">
+            <br/><br/><p>소스코드</p></div>
+            <img src="/java/week_6/images/HW6_2.png"alt="소스코드"/>
+            <br/><p>결과화면<p>
+            <img src="/java/week_6/images/HW6_2.png"alt="결과화면"/>
+         </section>
+      </section>
+   </body>
+   </html>
