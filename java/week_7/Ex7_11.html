@@ -1,0 +1,61 @@
+<!docypte html><!-- inp.html -->
+<html><head><meta chrset="utf-8"/><mate name="viewport" content="width=device-width, inital-scale=1"/>
+   
+   <style>
+      div#division {width:90%;height:400px;float:left; font-size:18px; overflow:scroll; background-color:white; border:solid 1px gray;}
+      div#division1 {margin: 410px 0px 0px 0px;}
+   </style>
+   
+   <title> 객체 </title>
+   <body>
+      
+      <header>
+         <h4> 임희진 </h4>
+      </header><br/>
+      <section>
+         <section>
+            <br/><p>코드</p>
+            <br/><div id="division">
+            <xmp>
+package org.javaro.lecture;
+
+class Ex7_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("임희진"+"-"+"20191016"+"-"+"객체");
+		Studentx stud1 = new Studentx();
+		stud1.setStudNo("20xx1234");
+		stud1.setName("홍길동");
+		System.out.println(stud1.getStudNo());
+		System.out.println(stud1.getName());
+	}
+}
+class Studentx{
+	String studNo, name;
+	public void setStudNo(String studNo) {
+		this.studNo = studNo;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getStudNo() {
+		return  this.studNo;
+	}
+	public String getName() {
+		return this.name;
+	}
+}
+            </xmp>
+            </div>
+         </section>
+         
+         <section><div id="division1">
+            <br/><br/><p>소스코드</p></div>
+            <img src="/java/week_7/images/Ex7_11.png" width=100% border=0 usemap="#area">
+            <br/><p>결과화면<p>
+            <img src="/java/week_7/images/Ex7_11.png" width=100% border=0 usemap="#area">
+         </section>
+      </section>
+   </body>
+   </html>
